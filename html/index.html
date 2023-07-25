@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="icon" type="image/png" href="pxfuel.jpg" 26x26>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@400;700&family=Poppins&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+    <style>    
     h1, h2, h3, h4, h5 ,h6, p{
         font-family: 'Poppins', sans-serif;
       }
@@ -19,9 +19,9 @@
         padding: 0;
         overflow: hidden;
         font-family: "Poppins", sans-serif;
-        font-size: 12px;
+        font-size: 15px;
         border-right-width: 1px;
-        border-right-color: #ffffff;
+        border-right-color: #000000;
         padding-top: 5px;
         padding-bottom: 5px;
       }
@@ -29,18 +29,19 @@
         float: left;
       }
       ul.navbar li a {
-        display: inline-block;
-        color: white;
+        display: inline-block;  
+        color: #ffffff;
         text-align: center;
+        font-size: 15px;
         padding: 19px;
         padding-left: 0px;
         text-decoration: none;
-        border-right-color: #ffffff;
+        border-right-color: rgb(255, 255, 255);
         border-right-width: 1px;
       }
 
       ul.navbar li a:hover {
-        color: #fcb316;
+        color: #ff3939;
       }
       ul.navbar-1 i {
         display: block;
@@ -52,18 +53,14 @@
         font-size: 16px;
       }
       ul.navbar-1 i:hover {
-        color: #fcb316;
+        color: #ff3939;
       }
-
-      .container {
-        width: 100%;
-      }
-
-      .bg-darkblue {
-        background-color: #1a1a44;
+      .bg-red {
+        background-color: #6d0d11;
       }
       body {
         margin: 0px;
+        padding: 0px;
         overflow-x: hidden;
       }
       .navbar-1,
@@ -75,11 +72,11 @@
         padding: 0;
       }
       body > div.sectionfull > div > div > section:nth-child(19) > div:nth-child(1), body > div.sectionfull > div > div > section:nth-child(20) > div:nth-child(1) {
-    width: 50%;
+    width: 100%;
 }
       .mt-20 {
         margin-top: 10px;
-        margin-right: -420px;
+        margin-right: -120px;
       }
 
       .row {
@@ -87,7 +84,7 @@
       }
 
       .column {
-        flex: 50%;
+        flex: 100%;
       }
       .header-container {
         display: flex;
@@ -99,7 +96,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        color: #ffffff;
+        color: #000000;
       }
 
       .menu li {
@@ -110,14 +107,15 @@
         display: block;
         color: #000000;
         text-decoration: none;
-        padding: 25px 7px;
-        font-size: 15px;
+        padding: 20px 7px;
+        font-size: 18px;
         font-family: "Poppins", sans-serif;
       }
 
       .menu li a:hover {
-        color: #fcb316 !important;
-        transition: all;
+        color: #fc1616 !important;
+        transition: all 0.5s
+        
       }
       .dropdown {
         position: relative;
@@ -126,7 +124,7 @@
       .dropdown-content {
         display: none;
         position: absolute;
-        min-width: 160px;
+        min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         z-index: 1;
       }
@@ -136,14 +134,15 @@
       }
 
       .dropdown-content a {
-        color: #333;
+        color: #000000;
         padding: 10px 20px;
         text-decoration: none;
         display: block;
       }
 
       .dropdown-content a:hover {
-        background-color: #16163f;
+        background-color: #E50914
+;
         color: #ffffff;
       }
 
@@ -171,16 +170,30 @@
   margin: 10px;
   width: 120px;
 }
-.ml-5{
+.video-container {
+  margin-left: 1%;
+  border-top-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  position: relative;
+  padding-bottom: 30%;
+  height: 0%;
+  overflow: hidden;
+  max-width: 100%;
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99%;
+}
+.marginl-5px{
       margin-left: 5px;
     }
-
-
-    .col-12{
+    .column-12{
       flex: 100%;
     }
-    .col-6{
-      flex:50%;
+    .column-6{
+      flex:100%;
     }
 
     .row-auto{
@@ -192,6 +205,7 @@
 
     .container-1400{
       width:1400px;
+      height:0px;
       margin:auto
     }
 
@@ -199,7 +213,7 @@
       max-width:100%;
     }
 
-    .col-3{
+    .column-3{
       flex:25px;
     }
     .button-container {
@@ -208,49 +222,50 @@
   }
 
   .button {
-    background-color: #1a1a44;
+    background-color: #9c1c1c;
     font-family: "Poppins", sans-serif;
-    color: #fcb316;
+    color: #ffffff;
     text-align: center;
     border: none;
     padding: 12px 20px;
-    border-radius: 5px;
-    font-size: 15px;
-    font-weight: 500;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 1000;
     margin-top: 0px;
     margin-bottom: 0px;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s; 
   }
   .button:hover {
-    background-color: #fcb316;
-    color: #1a1a44;
+    background-color: #000000;
+    color: #bb0404;
+    font-size: 25px;
+    transition: all 0.90s;
   }
     </style>
 
-    <title>USTP PAGE</title>
+    <title>Famas Ustp Page</title>
 
     
 </head>
 <body>
   <div class="container" style="position: sticky;top: 0;z-index: 100;transition: background-color 0.3s ease; background-color: #ffffff;">
+
     <div class="section">
-      <div class="bg-darkblue">
+      <div class="bg-red">
         <div class="row">
           <div class="column">
             <ul class="navbar navbar-container">
               <li>
                 <a href="https://www.ustp.edu.ph/career-center/"
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i>
-                  Career Center <span style="margin-left: 10px">|</span></a
+                  Career Center <span style="margin-left: 15px">|</span></a
                 >
               </li>
               <li>
                 <a href="https://www.ustp.edu.ph/week-of-welcome/"
                   ><i class="fa-solid fa-arrow-up-right-from-square"></i>
-                  Student Affairs <span style="margin-left: 10px">|</span></a>
-                
-                
+                  Student Affairs <span style="margin-left: 15px">|</span></a>
               </li>
               <li>
                 <a href="https://www.ustp.edu.ph/alumni-federation/"
@@ -272,7 +287,7 @@
             </ul>
           </div>
           <div class="column">
-            <ul class="navbar-1 mt-20">
+            <ul class="navbar-1 mt-20" style="margin-left: 55%;">
               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
               <a href="#"><i class="fa-brands fa-twitter"></i></a>
               <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -282,99 +297,159 @@
           </div>
         </div>
       </div>
-      <div class="row" style="padding-top: 25px; padding-bottom: 25px">
+      <div class="row" style="padding-top: 30px; padding-bottom: 30px">
         <div class="column">
           <div class="header-container">
             <a href="#"><img
               class="logo-size-ustp"
-              style="margin-left: 165px"
-              src="USTP.png"
+              style="margin-left: 20px"
+              src="blackat.jpg"
               alt=""
             /></a>
-            <a href="#"><img class="logo-size mt-20" src="ustp.jpg" alt="" /></a>
+            <a 
+              href="#"><img 
+              class="logo-size mt-20" 
+              src="ustp.jpg" 
+              alt=""
+              style="margin-left: 10px; margin-right:-10px;"
+              
+            /></a>
           </div>
         </div>
         <div class="column">
           <ul class="menu">
             <li class="dropdown">
-              <a href="#">About<i class="fa-solid fa-angle-down ml-5"></i></a>
+              <a href="#">About<i class="fa-solid fa-angle-down marginl-5px"></i></a>
               <div class="dropdown-content">
-                <a href="https://www.youtube.com/watch?v=rV5ynCW-kVw">Service 1</a>
-                <a href="#">Service 2</a>
-                <a href="#">Service 3</a>
+                <a href="#">About 1</a>
+                <a href="#">About 2</a>
+                <a href="#">About 3</a>
+                <a href="#">About 4</a>
+                <a href="#">About 5</a>
+                <a href="#">About 6</a>
+                <a href="#">About 7</a>
+                <a href="#">About 8</a>
+                <a href="#">About 9</a>
+                <a href="#">About 10</a>
             <li class="dropdown">
-              <a href="#">Academic<i class="fa-solid fa-angle-down ml-5"></i></a>
+              <a href="#">Academic<i class="fa-solid fa-angle-down marginl-5px"></i></a>
               <div class="dropdown-content">
-                <a href="#">Service 1</a>
-                <a href="#">Service 2</a>
-                <a href="#">Service 3</a>
+                <a href="#">Academic 1</a>
+                <a href="#">Academic 2</a>
+                <a href="#">Academic 3</a>
+                <a href="#">Academic 4</a>
+                <a href="#">Academic 5</a>
+                <a href="#">Academic 6</a>
+                <a href="#">Academic 7</a>
+                <a href="#">Academic 8</a>
+                <a href="#">Academic 9</a>
+                <a href="#">Academic 10</a>
+              
               </div>
             </li>
             <li class="dropdown">
-              <a href="#">Research, Innovation & Entrepreneurship<i class="fa-solid fa-angle-down ml-5"></i></a>
+              <a href="#">Research, Innovation & Entrepreneurship<i class="fa-solid fa-angle-down marginl-5px"></i></a>
               <div class="dropdown-content">
-                <a href="#">Service 1</a>
-                <a href="#">Service 2</a>
-                <a href="#">Service 3</a>
-                <li class="dropdown">
-                  <a href="#">Global<i class="fa-solid fa-angle-down ml-5"></i></a>
+                <a href="#">Research Innovation & Entrepreneurship 1</a>
+                <a href="#">Research Innovation & Entrepreneurship 2</a>
+                <a href="#">Research Innovation & Entrepreneurship 3</a>
+                <a href="#">Research Innovation & Entrepreneurship 4</a>
+                <a href="#">Research Innovation & Entrepreneurship 5</a>
+                <a href="#">Research Innovation & Entrepreneurship 6</a>
+                <a href="#">Research Innovation & Entrepreneurship 7</a>
+                <a href="#">Research Innovation & Entrepreneurship 8</a>
+                <a href="#">Research Innovation & Entrepreneurship 9</a>
+                <a href="#">Research Innovation & Entrepreneurship 10</a>
+
+                <li class="dropdown"> 
+                  <a href="#">Global<i 
+                    class="fa-solid fa-angle-down marginl-5px"></i></a>
                   <div class="dropdown-content">
-                    <a href="#">Service 1</a>
-                    <a href="#">Service 2</a>
-                    <a href="#">Service 3</a>
+                    <a href="#">Global 1</a>
+                    <a href="#">Global 2</a>
+                    <a href="#">Global 3</a>
+                    <a href="#">Global 4</a>
+                    <a href="#">Global 5</a>
+                    <a href="#">Global 6</a>
+                    <a href="#">Global 7</a>
+                    <a href="#">Global 8</a>
+                    <a href="#">Global 9</a>
+                    <a href="#">Global 10</a>
                     <li class="dropdown">
-                      <a href="#">Updates<i class="fa-solid fa-angle-down ml-5"></i></a>
+                      <a href="#">Updates<i 
+                        class="fa-solid fa-angle-down marginl-5px">
+                      </i>
+                    </a>
                       <div class="dropdown-content">
-                        <a href="#">Service 1</a>
-                        <a href="#">Service 2</a>
-                        <a href="#">Service 3</a>
+                        <a href="#">Updates 1</a>
+                        <a href="#">Updates 2</a>
+                        <a href="#">Updates 3</a>
+                        <a href="#">Updates 4</a>
+                        <a href="#">Updates 5</a>
+                        <a href="#">Updates 6</a>
+                        <a href="#">Updates 7</a>
+                        <a href="#">Updates 8</a>
+                        <a href="#">Updates 9</a>
+                        <a href="#">Updates 10</a>
                         <li class="dropdown">
-                          <a href="#">Services<i class="fa-solid fa-angle-down ml-5"></i></a>
+                          <a href="#">Services<i 
+                          class="fa-solid fa-angle-down marginl-5px"></i>
+                        </a>
                           <div class="dropdown-content">
                             <a href="#">Service 1</a>
                             <a href="#">Service 2</a>
                             <a href="#">Service 3</a>
+                            <a href="#">Service 4</a>
+                            <a href="#">Service 5</a>
+                            <a href="#">Service 6</a>
+                            <a href="#">Service 7</a>
+                            <a href="#">Service 8</a>
+                            <a href="#">Service 9</a>
+                            <a href="#">Service 10</a>
           </ul>
         </div>
       </div>
     </div>
   </div>
-    <div class="box" style="border-radius: 50px; border-top-left-radius: 50px; border-bottom-right-radius: 50px; margin: 5px; margin-bottom: 10px;">
-        <video src="banner.mp4" autoplay loop muted></video>
+    <div class="video-container">
+        <video src="video.mp4"autoplay loop muted></video>
     </div>
     <div>
       <div class="image-container" style="margin-top: 0px;">
-        <a href="#"><img src="STARS.png" alt="Image 1"></a>
-        <a href="#"><img src="RANK.png" alt="Image 2"></a>
-        <a href="#"><img src="WEBO-300x183.png" alt="Image 3"></a>
-        <a href="#"><img src="AD.png" alt="Image 4"></a>
-        <a href="#"><img src="EduRank-Logo-300x183.png" alt="Image 5"></a>
-        <a href="#"><img src="Socotec-Certification-International-ISO-9001.png" alt="Image 6"></a>
+        <a href="https://www.ustp.edu.ph/awards-recognition/institutional-recognition-accreditation-certification/#QS_Stars" target="_blank"><img src="sharingan1.gif" alt="Image 1"></a>
+        <a href="https://www.ustp.edu.ph/awards-recognition/institutional-recognition-accreditation-certification/#THE" target="_blank"><img src="obito.gif" alt="Image 2"></a>
+        <a href="https://www.ustp.edu.ph/awards-recognition/institutional-recognition-accreditation-certification/#Webometrics" target="_blank"><img src="sharingan2.gif" alt="Image 3"></a>
+        <a href="https://www.ustp.edu.ph/awards-recognition/institutional-recognition-accreditation-certification/#AD_Scientific" target="_blank"><img src="pngegg (1).png" alt="Image 4"></a>
+        <a href="https://www.ustp.edu.ph/awards-recognition/institutional-recognition-accreditation-certification/#EduRank" target="_blank"><img src="sharingan2flip.gif" alt="Image 5"></a>
+        <a href="https://www.ustp.edu.ph/awards-recognition/institutional-recognition-accreditation-certification/#ISO" target="_blank"><img src="obitoflip.gif" alt="Image 6"></a>
+        <a href="https://www.ustp.edu.ph/awards-recognition/institutional-recognition-accreditation-certification/#ISO" target="_blank"><img src="sharingan1flip.gif" alt="Image 7"></a>
       </div>
   </div>
     <div class="sectionfull">
       <div class="row">
         <div class="container-1400">
-          <div class="col-12">
-            <div class="bg-darkblue" style="color:#ffffff;text-align: right;padding:10px; border-radius: 8px;">
-              <h2 style="font-size:28px; margin-top:0px; margin-bottom: 0px; margin-right: 10px;">ABOUT USTP</h2>
+          <div class="column-12">
+            <div class="bg-red" style="color:#E50914 hsl(0, 58%, 57%);text-align: right;padding:10px; border-radius: 8px;">
+              <h2 style="font-size:28px; margin-top:0px; margin-bottom: 0px; margin-right: 10px;">ABOUT PTSU</h2>
             </div>
             <p style="text-align: justify; font-size: 20px;">The University of Science and Technology of Southern Philippines (USTP) is a state university established on August 16, 2016, by virtue of Republic Act 10919 through the amalgamation of the Mindanao University of Science and Technology (MUST) in Cagayan de Oro City, Misamis Oriental and the Misamis Oriental State College of Agriculture and Technology (MOSCAT) in Claveria, Misamis Oriental. It is located in Northern Mindanao, the Gateway to Mindanao, which offers a strategic locational advantage for the institution to train and develop students from all the other regions.</p>
               <p style="text-align: justify; font-size: 20px;">Adhering to its general mandate to primarily provide advanced education; higher technological, professional, and advanced instruction; and advanced research and extension work, required for global competitiveness, the University envisions becoming a nationally recognized S&T University providing the vital link between education and the economy. As the university fulfills this mandate, it moves from within its immediate context and toward its larger international environment, as the first and only national university of science and technology in the country. It will operate as such that it will have seamless knowledge and collaboration with its stakeholders in the private and public sectors, the labor market, business, and industry.</p>
             <div class="button-container">
-              <button class="button">Learn more about USTP</button>
+              <button class="button">Learn more about PTSU</button>
+            </div>                         
+            <div class="container">
+              <div class="slider-wrapper">
+                <div style="margin-top: 10px; margin-left: 10px;">
+                  <a href= "#"><img src="tobi.jpg" width="1370" height="800"
+                  alt=""></a>
+                </div>
             </div>
-            <div style="margin-top: 75px;">
-              <img src="example.png" alt="Big Image" style="margin: auto; "width="1400" height="auto">
-            </div>
+          </div>
             <div style="margin-top: 25px;">
-              <div style="color:#1a1a44;text-align: left;padding: 0px; font-size: 43px;">
-                <h3>USTP Updates dan gay</h3>
+              <div style="color:#a52f2f;text-align: left;padding: 0px; font-size: 43px;">
+                <h3>PTSU Updates</h3>
               </div>
             </div>   
-
-
-
             </div> 
           </div>
         </div>
